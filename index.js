@@ -17,7 +17,7 @@ function display() {}
 
 display.prototype.validate = (book) => {
   // console.log("In validate");
-  if (book.name.length >= 3 && book.author >= 3) {
+  if (book.name.length >= 3 && book.author.length >= 3) {
     return true;
   } else {
     return false;
