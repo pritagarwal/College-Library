@@ -1,0 +1,10 @@
+.List{
+    width:100%;
+    height: 500vh;
+    overflow: auto;
+}
+
+.form-check-input{
+    cursor:pointer;
+
+}
